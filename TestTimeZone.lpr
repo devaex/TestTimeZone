@@ -9,6 +9,8 @@ uses
   {$endif UNIX}
   sysutils,
   mormot.core.search;
+  
+{$R ..\..\..\..\Lib\mORMot2\trunk\src\mormot.tz.res} // validate our supplied resource file  
 
 var
   tz: TSynTimeZone;
